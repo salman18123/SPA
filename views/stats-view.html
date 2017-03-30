@@ -1,0 +1,23 @@
+  <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview" ng-repeat="team in teams.team">
+                    
+                        <h2 class="post-title" style="color:grey" class="text-center">
+                            {{team.name}}
+                        </h2>
+                        <h3 class="post-subtitle" >
+                            <a ng-href="#" id="{{team.id}}">Team Stats</a>
+                        </h3><br/><hr>
+                        
+                         
+                    
+                   
+                </div>
+                <hr>
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#/">Go Back &rarr;</a>
+                    </li>
+                    
+                </ul>
